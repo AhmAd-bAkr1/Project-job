@@ -914,3 +914,30 @@ a {
 
 }
 }
+@media (max-height:620px){
+    .container .sign-up .img img {
+        padding-top: 8px;
+        width: 220px;
+        height: 220px;
+    }
+    .container .sign-up .info .text p {
+        height:25px;
+    }
+    .container .sign-up .info .text {
+    height: 90px;
+    }
+    .container .sign-up .info .informations .btn {
+        height: 40px;
+        bottom: -40px;
+    }
+    .container .sign-up .info .informations .btn  button{
+        height: 40px;
+        bottom: -22px;
+    }
+    .container .sign-up .info .informations .infor-1 {
+        height: 35px;
+    }
+    .container .sign-up .info .informations .infor-1 input {
+        height: 18px;
+    }
+}
