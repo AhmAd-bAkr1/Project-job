@@ -896,7 +896,7 @@ a {
     }
 
     .container .sign-up .info .text {
-        gap: 0px;
+        gap: 10px;
     }
 
     .container .sign-up .img img {
@@ -977,32 +977,32 @@ a {
     }
 
     .container .sign-up .info .text {
-        height: 85px;
+        height: 100px;
     }
 
     .container .sign-up .info .informations .btn {
         height: 40px;
-        bottom: -18px;
+        bottom: -50px;
     }
 
     .container .sign-up .info .informations .btn button {
         height: 40px;
-        bottom: -18px;
+        bottom: -20px;
     }
 
     .container .sign-up .info .informations .infor-1 {
-        height: 35px;
+        height: 37px;
     }
 
     .container .sign-up .info .informations .infor-1 input {
-        height: 18px;
+        height: 22px;
     }
 
     .invalid {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .valid {
-        font-size: 10px;
+        font-size: 13px;
     }
 }
