@@ -8,6 +8,7 @@ body {
     font-family: 'Inter', sans-serif;
     overflow: hidden;
 }
+
 .container {
     position: relative;
     display: flex;
@@ -22,6 +23,7 @@ body {
     overflow: hidden;
     background-image: url(imgs/background-img.png);
 }
+
 .container .welcome-screen {
     position: relative;
     display: flex;
@@ -38,6 +40,7 @@ body {
     order: 0;
     flex-grow: 0;
 }
+
 .container .welcome-screen .img img {
     width: 450px;
     height: 315px;
@@ -46,6 +49,7 @@ body {
     order: 0;
     flex-grow: 1;
 }
+
 .container .welcome-screen .text-btn {
     display: flex;
     flex-direction: column;
@@ -58,6 +62,7 @@ body {
     order: 1;
     flex-grow: 1;
 }
+
 .container .welcome-screen .text-btn .text h1 {
     width: 315px;
     height: 67px;
@@ -73,6 +78,7 @@ body {
     order: 0;
     flex-grow: 0;
 }
+
 .container .welcome-screen .text-btn .text p {
     width: 450px;
     height: 38px;
@@ -87,6 +93,7 @@ body {
     align-self: stretch;
     flex-grow: 0;
 }
+
 .container .welcome-screen .text-btn .btn button {
     flex-direction: row;
     justify-content: center;
@@ -100,6 +107,7 @@ body {
     flex-grow: 1;
     border: none;
 }
+
 .container .welcome-screen .text-btn .btn button p {
     width: 89px;
     height: 22px;
@@ -113,6 +121,7 @@ body {
     flex-grow: 0;
     position: absolute;
 }
+
 .container .welcome-screen .text-btn .btn button p,
 .container .welcome-screen .text-btn .btn button {
     display: flex;
@@ -120,6 +129,7 @@ body {
     flex: none;
     order: 0;
 }
+
 .container .sign-up {
     display: none;
     flex-direction: row;
@@ -135,6 +145,7 @@ body {
     order: 0;
     flex-grow: 0;
 }
+
 .container .sign-up .img img {
     width: 450px;
     height: 536px;
@@ -144,6 +155,7 @@ body {
     align-self: stretch;
     flex-grow: 1;
 }
+
 .container .sign-up .info {
     display: flex;
     flex-direction: column;
@@ -156,6 +168,7 @@ body {
     order: 1;
     flex-grow: 1;
 }
+
 .container .sign-up .info .text {
     display: flex;
     flex-direction: column;
@@ -169,6 +182,7 @@ body {
     align-self: stretch;
     flex-grow: 0;
 }
+
 .container .sign-up .info .text h1 {
     width: 450px;
     height: 50px;
@@ -185,6 +199,7 @@ body {
     align-self: stretch;
     flex-grow: 0;
 }
+
 .container .sign-up .info .text p {
     width: 450px;
     height: 76px;
@@ -199,6 +214,7 @@ body {
     align-self: stretch;
     flex-grow: 0;
 }
+
 .container .sign-up .info .informations {
     display: flex;
     flex-direction: column;
@@ -212,6 +228,7 @@ body {
     align-self: stretch;
     flex-grow: 0;
 }
+
 .container .sign-up .info .informations .create_account {
     display: flex;
     flex-direction: column;
@@ -225,6 +242,7 @@ body {
     align-self: stretch;
     flex-grow: 0;
 }
+
 .container .sign-up .info .informations .infor-1 {
     box-sizing: border-box;
     display: flex;
@@ -242,6 +260,7 @@ body {
     align-self: stretch;
     flex-grow: 0;
 }
+
 .container .sign-up .info .informations .infor-1 .icon {
     display: flex;
     flex-direction: row;
@@ -254,6 +273,7 @@ body {
     order: 0;
     flex-grow: 0;
 }
+
 .container .sign-up .info .informations .infor-1 .icon .head {
     position: absolute;
     color: #9CADF2;
@@ -261,6 +281,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 .container .sign-up .info .informations .infor-1 .icon .user {
     width: 20px;
     height: 20px;
@@ -269,6 +290,7 @@ body {
     flex-grow: 0;
     align-items: center;
 }
+
 .container .sign-up .info .informations .infor-1 .icon .side-line {
     width: 1px;
     height: 22px;
@@ -277,6 +299,7 @@ body {
     order: 1;
     flex-grow: 0;
 }
+
 .container .sign-up .info .informations .infor-1 input {
     width: 369px;
     height: 44px;
@@ -297,6 +320,7 @@ body {
     border: none;
 
 }
+
 .container .sign-up .info .informations .btn {
     display: flex;
     flex-direction: column;
@@ -310,6 +334,7 @@ body {
     align-self: stretch;
     flex-grow: 0;
 }
+
 .container .sign-up .info .informations .btn button {
     display: flex;
     flex-direction: row;
@@ -330,6 +355,7 @@ body {
     margin-top: 35px;
 
 }
+
 .container .sign-up .info .informations .btn button p {
     width: 118px;
     height: 22px;
@@ -347,6 +373,7 @@ body {
     flex-grow: 0;
     margin-top: 11px;
 }
+
 .invalid {
     color: red;
     font-size: 14px;
@@ -354,12 +381,14 @@ body {
     text-transform: capitalize;
 
 }
+
 .valid {
     color: green;
     font-size: 14px;
     margin-left: 6px;
     text-transform: capitalize;
 }
+
 .succeed {
     display: none;
     flex-direction: row;
@@ -375,6 +404,7 @@ body {
     order: 0;
     flex-grow: 0;
 }
+
 .succeed .img img {
     width: 450px;
     height: 456px;
@@ -384,6 +414,7 @@ body {
     align-self: stretch;
     flex-grow: 1;
 }
+
 .succeed .text {
     display: flex;
     flex-direction: column;
@@ -396,6 +427,7 @@ body {
     order: 1;
     flex-grow: 1;
 }
+
 .succeed .text h1 {
     width: 450px;
     height: 50px;
@@ -412,6 +444,7 @@ body {
     align-self: stretch;
     flex-grow: 0;
 }
+
 .succeed .text a {
     width: 450px;
     height: 26px;
@@ -441,11 +474,13 @@ body {
         height: 647px;
         background: url(gradientbackground.png), #FFFFFF;
     }
+
     .invalid {
         margin-left: 27px;
-        
-    
+
+
     }
+
     .valid {
         margin-left: 27px;
     }
@@ -504,7 +539,6 @@ body {
 
     .container .welcome-screen .text-btn .text h1 {
         height: 50px;
-
         font-style: normal;
         font-weight: 400;
         font-size: 42px;
@@ -522,7 +556,6 @@ body {
     .container .welcome-screen .text-btn .text p {
         width: 315px;
         height: 52px;
-
         font-family: 'Mulish';
         font-style: normal;
         font-weight: 400;
@@ -566,7 +599,7 @@ body {
     }
 
     .container .welcome-screen .text-btn .btn button p {
-        width: 89px;
+        width: fit-content;
         height: 22px;
         font-family: 'Mulish';
         font-style: normal;
@@ -604,11 +637,9 @@ body {
         flex-direction: column;
         align-items: center;
         padding: 10px 0px;
-        gap: 10px;
-
+        gap: 5px;
         width: 375px;
         height: 931px;
-
         background: rgba(245, 247, 255, 0.85);
         border-radius: 10px;
         flex: none;
@@ -617,19 +648,15 @@ body {
         flex-grow: 1;
     }
 
-    .container .sign-up .info{
+    .container .sign-up .info {
         width: 350px;
     }
+
     .container .sign-up .img img {
 
         width: 315px;
         height: 315px;
-
-        background: url(UFdzw93KqImMmgucVlvhR2hapqGl33Cxz1HnzYum.jpg);
         border-radius: 10px;
-
-        /* Inside auto layout */
-
         flex: none;
         order: 0;
         flex-grow: 0;
@@ -695,14 +722,14 @@ body {
         order: 2;
         flex-grow: 0;
     }
-    .container .sign-up .info .informations .infor-1 input{
-    width: 250px;
-    } 
+
+    .container .sign-up .info .informations .infor-1 input {
+        width: 250px;
+    }
+
     .container .sign-up .info .informations .infor-1 {
         width: 350px;
-            } 
-
-
+    }
 
     .container .sign-up .info .informations .create_account {
         display: flex;
@@ -713,19 +740,17 @@ body {
         margin: 5px -15px;
         width: 315px;
         height: 215px;
-
-
-        /* Inside auto layout */
-
         flex: none;
         order: 0;
         flex-grow: 0;
     }
+
     .container .sign-up .info .informations .btn button {
         width: 350px;
-        margin-left:-18px ;
+        margin-left: -18px;
     }
-    .container .sign-up .info .informations .btn  {
+
+    .container .sign-up .info .informations .btn {
         width: 350px;
         position: relative;
         bottom: -90px;
@@ -828,13 +853,16 @@ a {
     flex-grow: 0;
     margin-top: 20px;
 }
+
 @media (max-width: 1000px) {
-    .container{
+    .container {
         padding: 10px;
     }
+
     .container .welcome-screen {
         height: 100vh;
     }
+
     .container .sign-up {
         height: 100vh;
         gap: 10px;
@@ -843,43 +871,50 @@ a {
     .container .sign-up .info .text p {
         padding: 0 90px;
     }
+
     .container .sign-up .info .informations .infor-1 {
         width: 300px;
         margin-left: 23px;
         height: 40px;
     }
+
     .container .sign-up .info .informations .infor-1 input {
         width: 200px;
         height: 23px;
     }
+
     .container .sign-up .info .informations .btn button {
         width: 300px;
         margin-top: 0;
         position: relative;
         bottom: 0px;
-        margin-left: 7px; 
+        margin-left: 7px;
     }
-    .container .sign-up .info {
-       height: 375px;
-    }
-    .container .sign-up .info .text {
-       gap: 0px;
-    }
-    .container .sign-up .img img{
-       width: 260px;
-       height: 260px;
-    }
-    
-   .container .sign-up .info .informations .create_account {
-       height: 155px;
 
-}
+    .container .sign-up .info {
+        height: 375px;
+    }
+
+    .container .sign-up .info .text {
+        gap: 0px;
+    }
+
+    .container .sign-up .img img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .container .sign-up .info .informations .create_account {
+        height: 155px;
+
+    }
 }
 
 @media (max-width:400px) {
     .container .welcome-screen {
         height: 100vh;
     }
+
     .container .sign-up {
         height: 100vh;
         gap: 10px;
@@ -888,69 +923,85 @@ a {
     .container .sign-up .info .text p {
         padding: 0 90px;
     }
+
     .container .sign-up .info .informations .infor-1 {
         width: 300px;
         margin-left: 23px;
         height: 40px;
     }
+
     .container .sign-up .info .informations .infor-1 input {
         width: 200px;
         height: 23px;
     }
+
     .container .sign-up .info .informations .btn button {
         width: 300px;
         margin-top: 0;
-        margin-left: 5px; 
+        margin-left: 5px;
     }
+
     .container .sign-up .info .informations .btn {
-    position: relative;
+        position: relative;
         bottom: -95px;
     }
-    .container .sign-up .info {
-       height: 375px;
-    }
-    .container .sign-up .info .text {
-       gap: 0px;
-    }
-    .container .sign-up .img img{
-       width: 260px;
-       height: 260px;
-    }
-    
-   .container .sign-up .info .informations .create_account {
-       height: 155px;
 
+    .container .sign-up .info {
+        height: 375px;
+    }
+
+    .container .sign-up .info .text {
+        gap: 0px;
+    }
+
+    .container .sign-up .img img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .container .sign-up .info .informations .create_account {
+        height: 155px;
+
+    }
 }
-}
-@media (max-height:620px){
+
+@media (max-height:620px) {
     .container .sign-up .img img {
         padding-top: 15px;
         width: 220px;
         height: 220px;
     }
+
     .container .sign-up .info .text p {
-        height:25px;
+        height: 25px;
     }
+
     .container .sign-up .info .text {
-    height: 90px;
+        height: 85px;
     }
+
     .container .sign-up .info .informations .btn {
         height: 40px;
-        bottom: -22px;
+        bottom: -18px;
     }
-    .container .sign-up .info .informations .btn  button{
+
+    .container .sign-up .info .informations .btn button {
         height: 40px;
-        bottom: -22px;
+        bottom: -18px;
     }
+
     .container .sign-up .info .informations .infor-1 {
         height: 35px;
     }
+
     .container .sign-up .info .informations .infor-1 input {
         height: 18px;
     }
+
     .invalid {
         font-size: 10px;
     }
+
     .valid {
         font-size: 10px;
     }
